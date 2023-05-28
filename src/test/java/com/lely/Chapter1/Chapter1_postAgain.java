@@ -42,6 +42,8 @@ public class Chapter1_postAgain extends TestBase {
         String message = response.getBody().asString();
         System.out.println("message: " + message);
 
+
+
         // Check the response status code
         int statusCode = response.getStatusCode();
         if (statusCode == 201) {
@@ -49,6 +51,8 @@ public class Chapter1_postAgain extends TestBase {
         } else {
             System.out.println("has already been taken");
         }
+
+
 
 
 /*
