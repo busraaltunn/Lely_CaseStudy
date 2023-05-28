@@ -19,7 +19,7 @@ public class Chapter1_postAgain extends TestBase {
         String requestBody = "{\"name\": \"John Doe\", \"gender\": \"Male\", \"email\": \"johndoe@example.com\"}";
 
         Response response = given()
-                .header("Authorization", "Bearer " + accessToken)
+                .header("Bearer", accessToken)
                 .contentType(ContentType.JSON)
                 .body(requestBody)
                 .post("/public/v1/users");
