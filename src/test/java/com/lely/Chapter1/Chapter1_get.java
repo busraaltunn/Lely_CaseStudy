@@ -1,13 +1,10 @@
 package com.lely.Chapter1;
 
 import com.lely.Utilities.TestBase;
-import com.lely.pojo.chapter1;
-
 import static io.restassured.RestAssured.given;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 import io.restassured.response.*;
-import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
