@@ -17,6 +17,7 @@ public class TestBase {
     public static void init(){
         baseURI = ConfigurationReader.getProperty("api_url");
 
+
     }
 
 
